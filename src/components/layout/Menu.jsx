@@ -11,7 +11,16 @@ const Menu = (props) => (
           <Link to="/">Inicio</Link>
         </li>
         <li>
+          <Link to="/param/123">Param #01</Link>
+        </li>
+        <li>
+          <Link to="/param/batata">Param #02</Link>
+        </li>
+        <li>
           <Link to="/about">Sobre</Link>
+        </li>
+        <li>
+          <Link to="/naoexiste">Não existe</Link>
         </li>
       </ul>
     </nav>
